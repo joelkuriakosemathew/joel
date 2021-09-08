@@ -1,0 +1,61 @@
+/* styling navbar */
+.navbar-nav a {
+    text-decoration: rgb(14, 13, 13);
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+.navbar-nav a:hover{
+    background-color: rgb(27, 23, 23);
+}
+.navbar-nav .nav-logo{
+    text-decoration: none;
+}
+.nav-logo {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+/* responsive image */
+.responsive {
+    width: 100%;
+    height: auto;
+}
+/* responsive text on image */
+.container {
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container .centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 45%;
+}
+/* styling headings */
+.skill {
+    color: crimson;
+}
+/* styling heading contents */
+.w3-wide {
+    text-align: left;
+    color: #fff;
+}
+.w3-large .w3-margin-right {
+    text-align: left;
+}
+.left {
+    text-align: left;
+}
+.left-color {
+    text-align: left;
+    color: rgb(248, 209, 135);
+}
+.w3-section {
+    text-align: left;
+}
+/* styling footer */
+footer {
+    padding-bottom: 1cm;
+}
